@@ -8,6 +8,7 @@
   }
 
   .todo_wrapper {
+    padding-top: 25px;
     width: 300px;
     margin: 0 auto;
     display: flex;
@@ -15,6 +16,10 @@
     align-items: center;
   }
 
+  .todo_label{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
   .todo_item {
     padding-top: 10px;
     padding-bottom: 15px;
