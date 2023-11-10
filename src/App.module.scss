@@ -16,7 +16,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+  }
+
+  .item_list{
+    padding-top: 25px;
+  }
+
+  .item_wrapper{
+    padding-top: 25px;
+    border: 1px solid red;
+  }
+
+  .item{
+    display: none;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.3s;
+  }
+
+  .item__active{
+  display: block;
+  }
+
+  .item_btn{
+    padding: 5px;
+    display: block;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 14px;
   }
 
 }
