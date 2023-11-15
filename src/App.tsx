@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 
 function App() {
-  const [isActive, setIsActive] = useState('');
+  const [isActive, setIsActive] = useState(false);
   // const { ref } = useOutsideClick(false);
 
   const handleButtonClick = () => {
