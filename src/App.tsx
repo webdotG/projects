@@ -2,7 +2,7 @@ import Header from './AllOver/Header/header'
 import Todo from './componentsList/Todo/ui/todo'
 // import useOutsideClick from './Hook/clickOutSide';
 import style from './App.module.scss'
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 
 
 function App() {
