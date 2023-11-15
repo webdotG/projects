@@ -1,12 +1,13 @@
 import Header from './AllOver/Header/header'
 import Todo from './componentsList/Todo/ui/todo'
-import useOutsideClick from './Hook/clickOutSide';
+// import useOutsideClick from './Hook/clickOutSide';
 import style from './App.module.scss'
+import { useState } from 'react';
 
 
 function App() {
-
-  const { ref, isActive, setIsActive } = useOutsideClick(false);
+  const [isActive, setIsActive] = useState('');
+  // const { ref } = useOutsideClick(false);
 
   const handleButtonClick = () => {
     setIsActive(!isActive);
@@ -24,7 +25,9 @@ function App() {
           <button className={style.item_btn}
             onClick={handleButtonClick}>показать</button>
           {isActive && (
-            <div ref={ref} className={`${isActive ? style.item__active : style.item}`}>
+            <div className={`${isActive ? style.item__active : style.item}`}>  
+               <button className={style.item_btn}
+            onClick={handleButtonClick}>закрыть</button>
               <Todo />
             </div>
           )}
