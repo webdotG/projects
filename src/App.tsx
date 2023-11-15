@@ -29,8 +29,7 @@ function App() {
                <button className={style.item_btn}
             onClick={handleButtonClick}>закрыть</button>
               <Todo />
-              <div className={`${isActive ? style.item__active : style.item}`}>  
-               <button className={style.item_btn}
+              <button className={style.item_btn}
             onClick={handleButtonClick}>закрыть</button>
             </div>
           )}
