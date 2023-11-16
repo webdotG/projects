@@ -17,7 +17,7 @@ export const fetchTodos = createAsyncThunk<typeTodo[], undefined, { rejectValue:
   'todos/fetchTodos',
   async function (_, { rejectWithValue }) {
 
-    const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=7')
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
     console.log('RESPONSE CREATEASYNC FETCH TODOS  : ', response)
     if (!response.ok) {
       return rejectWithValue('ошибка на сервере')
