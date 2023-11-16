@@ -3,7 +3,7 @@ import Todo from './componentsList/Todo/ui/todo'
 // import useOutsideClick from './Hook/clickOutSide';
 import style from './App.module.scss'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 function App() {
