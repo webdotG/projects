@@ -30,32 +30,30 @@ function App() {
       <Header />
       <ul className={style.item_list}>
         <li className={style.item_wrapper}>
-          <h3>Grant Rental</h3>
-          <p>site for rental of construction equipment</p>
-          <p>mobile & desktop</p>
-          <p>React, Vite, ReduxToolkit, Axios, Firebase, TS, Sass</p>
-          <a href='https://webdotg.github.io/Rental/' target="_blank">open site</a>
+          <h3 className={style.item_title}>Grant Rental</h3>
+          <p className={style.item_description}>Site for rental of construction equipment</p>
+          <p className={style.item_stack}>React, Vite, ReduxToolkit, Axios, Firebase, TS, Sass</p>
+          <a className={style.item_link} href='https://webdotg.github.io/Rental/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
-          <h3>Grant booking hotel</h3>
-          <p>site for booking </p>
-          <p>desktop</p>
-          <p>React, Vite, ReduxToolkit, Axios, TS, Sass</p>
-          <a href='https://webdotg.github.io/six_citise/' target="_blank">open site</a>
+          <h3 className={style.item_title}>Grant booking hotel</h3>
+          <p className={style.item_description}>Site for booking </p>
+          <p className={style.item_stack}>React, Vite, ReduxToolkit, Axios, TS, Sass</p>
+          <a className={style.item_link} href='https://webdotg.github.io/six_citise/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
-          <h3>List "item/todo"</h3>
-          <p></p>
-          <p>React, Vite, AsyncThunk, Fetch</p>
-          <button className={style.item_btn}
-            onClick={handleButtonClick}>показать</button>
+          <h3 className={style.item_title}>List "item/todo"</h3>
+          <p className={style.item_description}>task add</p>
+          <p className={style.item_stack}>React, Vite, AsyncThunk, Fetch</p>
+          <button className={style.item_link}
+            onClick={handleButtonClick}>Open</button>
           {isActive && (
             <div className={`${isActive ? style.item__active : style.item}`}>
-              <button className={style.item_btn}
-                onClick={handleButtonClickClose}>закрыть</button>
+              <button className={style.item_link}
+                onClick={handleButtonClickClose}>Close</button>
               <Todo />
-              <button className={style.item_btn}
-                onClick={handleButtonClickClose}>закрыть</button>
+              <button className={style.item_link}
+                onClick={handleButtonClickClose}>Close</button>
             </div>
           )}
         </li>
