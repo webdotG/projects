@@ -36,20 +36,20 @@ function App() {
           <a className={style.item_link} href='https://webdotg.github.io/Rental/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>Grant booking hotel</h3>
-          <p className={style.item_description}>Site for booking </p>
+          <h3 className={style.item_title}>6sites booking hotel</h3>
+          <p className={style.item_description}>Site for booking hotel</p>
           <p className={style.item_stack}>React, Vite, ReduxToolkit, Axios, TS, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/six_citise/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Favorite add</h3>
           <p className={style.item_description}>programm for adding favorite item</p>
-          <p className={style.item_stack}>React, Vite, ReduxToolkit, Axios, TS, Sass</p>
+          <p className={style.item_stack}>React, Vite, ReduxToolkit, RTKQuery, TS, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/favorite_add/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>List "item/todo"</h3>
-          <p className={style.item_description}>task add</p>
+          <h3 className={style.item_title}>List item add</h3>
+          <p className={style.item_description}>item AsyncThunk add</p>
           <p className={style.item_stack}>React, Vite, AsyncThunk, Fetch</p>
           <button className={style.item_link}
             onClick={handleButtonClick}>Open</button>
