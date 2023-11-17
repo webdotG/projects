@@ -40,6 +40,12 @@ function App() {
           <a className={style.item_link} href='https://webdotg.github.io/six_citise/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>Grant airport</h3>
+          <p className={style.item_description}>site the airport</p>
+          <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, RTKQuery, Sass</p>
+          <a className={style.item_link} href='https://webdotg.github.io/airport/' target="_blank">open</a>
+        </li>
+        <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Favorite add</h3>
           <p className={style.item_description}>programm for adding favorite item, used an open source api Github</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, RTKQuery, Sass</p>
