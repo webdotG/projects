@@ -53,7 +53,7 @@ function App() {
         </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Grant webDotG</h3>
-          <p className={style.item_description}>personal work website (in progress)</p>
+          <p className={style.item_description}>personal work website (in progress, at the moment only desktop version)</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/webDotG_2/' target="_blank">open</a>
         </li>
