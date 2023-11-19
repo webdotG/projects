@@ -48,7 +48,7 @@ function App() {
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Grant airport</h3>
           <p className={style.item_description}>site the airport (in progress, at the moment only desktop version)</p>
-          <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, RTKQuery, Sass</p>
+          <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, Json server, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/airport/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
