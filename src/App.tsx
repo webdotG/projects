@@ -35,7 +35,7 @@ function App() {
         </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>6sites booking hotel</h3>
-          <p className={style.item_description}>Site for booking hotel, at the moment only desktop version</p>
+          <p className={style.item_description}>Site for booking hotel (at the moment only desktop version)</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, Axios, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/six_citise/' target="_blank">open</a>
         </li>
@@ -47,7 +47,7 @@ function App() {
         </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Grant airport</h3>
-          <p className={style.item_description}>site the airport (in progress)</p>
+          <p className={style.item_description}>site the airport (in progress, at the moment only desktop version)</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, RTKQuery, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/airport/' target="_blank">open</a>
         </li>
