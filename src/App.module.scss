@@ -76,7 +76,7 @@
   }
 
   .item_link{
-    width: 105px;
+    width: 140px;
     margin: 0 auto;
     margin-top: 15px;
     padding-top: 5px;
@@ -84,12 +84,20 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: black;
     letter-spacing: 0.5px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: transparent;
+
+    p{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      align-items: center;
+    }
   }
 
 }

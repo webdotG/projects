@@ -73,6 +73,12 @@ function App() {
             </div>
           )}
         </li>
+        <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>Nest JS basic setup notes</h3>
+          <p className={style.item_description}>cheat sheet</p>
+          <p className={style.item_stack}>TS, Nest JS, Mongo db</p>
+          <a className={style.item_link} href='https://github.com/webdotG/Nest_js/tree/main/src/airports' target="_blank">open<p>git page code</p></a>
+        </li>
       </ul>
     </div>
   )
