@@ -27,6 +27,18 @@ function App() {
     <div className={style.content_wrapper}>
       <Header />
       <ul className={style.item_list}>
+      <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>NestJS basic setup notes</h3>
+          <p className={style.item_description}>cheat sheet</p>
+          <p className={style.item_stack}>TS, NestJS, MongoDB</p>
+          <a className={style.item_link} href='https://github.com/webdotG/Nest_js' target="_blank">open<p>git page code</p></a>
+        </li>
+        <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>ExpressJS basic setup notes</h3>
+          <p className={style.item_description}>cheat sheet</p>
+          <p className={style.item_stack}>JS, ExpressJS, CRUD, JWT, MongoDB</p>
+          <a className={style.item_link} href='https://github.com/webdotG/FullStack' target="_blank">open<p>git page code</p></a>
+        </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Grant Rental</h3>
           <p className={style.item_description}>Site for rental of construction equipment</p>
@@ -73,12 +85,7 @@ function App() {
             </div>
           )}
         </li>
-        <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>Nest JS basic setup notes</h3>
-          <p className={style.item_description}>cheat sheet</p>
-          <p className={style.item_stack}>TS, Nest JS, Mongo db</p>
-          <a className={style.item_link} href='https://github.com/webdotG/Nest_js/tree/main/src/airports' target="_blank">open<p>git page code</p></a>
-        </li>
+        
       </ul>
     </div>
   )
