@@ -34,8 +34,9 @@ function App() {
           <a className={style.item_link} href='https://github.com/webdotG/Nest_js' target="_blank">open<p>git page code</p></a>
         </li>
         <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>Grant Blog</h3>
-          <p className={style.item_description}>website/blog (in progress) </p>
+          <h3 className={style.item_title}>ExpressJS basic CRUD setup notes</h3>
+          <p className={style.item_description}>User: Register, Login, Getme</p>
+          <p className={style.item_description}>Item: GetAll, GetOne, Create, Update, Remove</p>
           <p className={style.item_stack}>JS, ExpressJS, CRUD, JWT, MongoDB</p>
           <a className={style.item_link} href='https://github.com/webdotG/FullStack' target="_blank">open<p>git page code</p></a>
         </li>
