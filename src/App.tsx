@@ -27,12 +27,6 @@ function App() {
     <div className={style.content_wrapper}>
       <Header />
       <ul className={style.item_list}>
-      <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>NestJS basic setup notes</h3>
-          <p className={style.item_description}>cheat sheet</p>
-          <p className={style.item_stack}>TS, NestJS, MongoDB</p>
-          <a className={style.item_link} href='https://github.com/webdotG/Nest_js' target="_blank">open<p>git page code</p></a>
-        </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>ExpressJS basic CRUD setup notes</h3>
           <p className={style.item_description}>User: Register, Login, Getme</p>
@@ -69,6 +63,12 @@ function App() {
           <p className={style.item_description}>personal work website (in progress, at the moment only desktop version)</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/webDotG_2/' target="_blank">open</a>
+        </li>
+        <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>NestJS basic setup notes</h3>
+          <p className={style.item_description}>cheat sheet</p>
+          <p className={style.item_stack}>TS, NestJS, MongoDB</p>
+          <a className={style.item_link} href='https://github.com/webdotG/Nest_js' target="_blank">open<p>git page code</p></a>
         </li>
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>RTK Query basic setup notes</h3>
