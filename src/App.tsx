@@ -71,6 +71,12 @@ function App() {
           <a className={style.item_link} href='https://webdotg.github.io/webDotG_2/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>RTK Query basic setup notes</h3>
+          <p className={style.item_description}>cheat sheet</p>
+          <p className={style.item_stack}>JS, React, Vite, RTK Query, JSON placeholder</p>
+          <a className={style.item_link} href='https://webdotg.github.io/RTKQuery_basicSetup/' target="_blank">open<p>open</p></a>
+        </li>
+        <li className={style.item_wrapper}>
           <h3 className={style.item_title}>List item add</h3>
           <p className={style.item_description}>item AsyncThunk add</p>
           <p className={style.item_stack}>TS, React, Vite, AsyncThunk, Fetch</p>
