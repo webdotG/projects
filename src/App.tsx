@@ -27,8 +27,15 @@ function App() {
     <div className={style.content_wrapper}>
       <Header />
       <ul className={style.item_list}>
+      <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>Grant Blog (frontend)</h3>
+          <p className={style.item_description}>_, _, _, _, _, _</p>
+          <p className={style.item_stack}>JS, Reacrt, Router Dom, Axios, Sass</p>
+          <a className={style.item_link} href='https://webdotg.github.io/FullStackUI/' target="_blank"><p>open</p></a>
+        </li>
         <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>ExpressJS basic CRUD setup notes</h3>
+          <h3 className={style.item_title}>Grant Blog (backend)</h3>
+          <p className={style.item_description}>ExpressJS basic CRUD setup</p>
           <p className={style.item_description}>User: Register, Login, Getme</p>
           <p className={style.item_description}>Item: GetAll, GetOne, Create, Update, Remove</p>
           <p className={style.item_stack}>JS, ExpressJS, CRUD, JWT, MongoDB</p>
@@ -47,7 +54,7 @@ function App() {
           <a className={style.item_link} href='https://webdotg.github.io/six_citise/' target="_blank">open</a>
         </li>
         <li className={style.item_wrapper}>
-          <h3 className={style.item_title}>Favorite add</h3>
+          <h3 className={style.item_title}>Search and add favorite repositories</h3>
           <p className={style.item_description}>programm for adding favorite item, used an open source api Github</p>
           <p className={style.item_stack}>TS, React, Vite, ReduxToolkit, RTKQuery, Sass</p>
           <a className={style.item_link} href='https://webdotg.github.io/favorite_add/' target="_blank">open</a>
@@ -70,12 +77,12 @@ function App() {
           <p className={style.item_stack}>TS, NestJS, MongoDB</p>
           <a className={style.item_link} href='https://github.com/webdotG/Nest_js' target="_blank">open<p>git page code</p></a>
         </li>
-        <li className={style.item_wrapper}>
+        {/* <li className={style.item_wrapper}>
           <h3 className={style.item_title}>RTK Query basic setup notes</h3>
           <p className={style.item_description}>cheat sheet</p>
           <p className={style.item_stack}>JS, React, Vite, RTK Query, JSON placeholder</p>
           <a className={style.item_link} href='https://webdotg.github.io/RTKQuery_basicSetup/' target="_blank"><p>open</p></a>
-        </li>
+        </li> */}
         <li className={style.item_wrapper}>
           <h3 className={style.item_title}>List item add</h3>
           <p className={style.item_description}>item AsyncThunk add</p>
