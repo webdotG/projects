@@ -28,6 +28,11 @@ function App() {
       <Header />
       <ul className={style.item_list}>
       <li className={style.item_wrapper}>
+          <h3 className={style.item_title}>webDotG telegram bot</h3>
+          <p className={style.item_description}>Now, he's just a baby, but he's growing up and <br/>soon he'll be able to get and sell you anything.</p>
+          <p className={style.item_stack}>JS, Reacrt, NodeJs</p>
+          <a className={style.item_link} href='https://github.com/webdotG/webDotGBot' target="_blank">open<p>git page code</p>
+      <li className={style.item_wrapper}>
           <h3 className={style.item_title}>Grant Blog (frontend)</h3>
           <p className={style.item_description}>_, _, _, _, _, _</p>
           <p className={style.item_stack}>JS, Reacrt, Router Dom, Axios, Sass</p>
